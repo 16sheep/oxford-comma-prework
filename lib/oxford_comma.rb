@@ -3,4 +3,5 @@ def oxford_comma(array)
   string = array.join(", ")
   last_occurance = string.rindex(",")
   string.slice(last_occurance)
+  string
 end
